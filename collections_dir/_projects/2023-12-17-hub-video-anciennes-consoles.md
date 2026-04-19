@@ -118,7 +118,7 @@ _Visuel prise péritel femelle_
 
 La prise mini DIN 4[^svideo_pinout] permet de véhiculer le signal vidéo S-Video.
 
-![S-Video female connector pinout](/assets/vga/DE15_Connector_Pinout.svg.png)
+![S-Video female connector pinout](/assets/vga/DE15_Connector_Pinout.png)
 _Pinout prise S-Video femelle_
 
 ![S-Video female connector visual](/assets/vga/220px-SVGA_port.jpg)
@@ -136,7 +136,7 @@ _Visuel prise S-Video femelle_
 
 La prise vga[^vga_pinout] permet de véhiculer le signal vidéo RGB.
 
-![VGA female connector pinout](/assets/vga/DE15_Connector_Pinout.svg.png)
+![VGA female connector pinout](/assets/vga/DE15_Connector_Pinout.png)
 _Pinout prise VGA femelle_
 
 ![VGA female connector visual](/assets/vga/220px-SVGA_port.jpg)
