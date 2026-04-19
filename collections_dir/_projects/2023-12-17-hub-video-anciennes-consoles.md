@@ -82,6 +82,12 @@ _Visuel prise péritel femelle_
 | 20  | VIN     | IN        | Composite Video / Luminance / RGB Sync | 1 V         | 75 ohm
 | 21  | SHIELD  | GND       | Ground/Shield (Chassis) |               |
 
+> 0.5 V rms correspond à une tension crête d'environ 0.7V.
+> Soit une tension crête à crête (Vp-p) d'environ 1.4V.
+> Toutefois le standard péritel indique que la tension des signaux
+> audio oscille entre -0,5V et +0,5V (avec un point central à 0V contrairement aux entrées lignes)
+{: .prompt-info }
+
 > SWTCH (Pin 8) permet de changer le mode de vidéo
 > - 0~2 V => Pas de signal
 > - 4.5~7 V (nominal 6V) => foramt 16:9

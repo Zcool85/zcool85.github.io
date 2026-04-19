@@ -7,11 +7,11 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.3.3"
+gem "jekyll"
 #gem "github-pages", "~> 228", group: :jekyll_plugins
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 #gem "minima", "~> 2.5"
-gem "jekyll-theme-chirpy", "~> 6.3", ">= 6.3.1"
+gem "jekyll-theme-chirpy"
 
 gem "rake"
 
@@ -20,13 +20,12 @@ gem "rake"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.17"
   gem "jekyll-pdf-embed"
   gem 'jemoji'
 end
 
 group :test do
-  gem "html-proofer", "~> 5.0"
+  gem "html-proofer"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -37,11 +36,11 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+gem "wdm", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
-gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+gem "http_parser.rb", :platforms => [:jruby]
 
-gem "webrick", "~> 1.8"
+gem "webrick"
 
